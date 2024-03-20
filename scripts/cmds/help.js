@@ -1,5 +1,5 @@
 const fs = require("fs-extra");
-const axios = require("axios");
+const axios = require("axios");b
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
