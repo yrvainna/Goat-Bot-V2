@@ -242,7 +242,7 @@ module.exports = {
 • ADDUSER
 • UPTIME
 
-🤖THANKS FOR CHOOSING THIS BOT 🤖;
+🤖THANKS FOR CHOOSING THIS BOT 🤖";
 
       return message.reply(commandsList);
     }
