@@ -221,28 +221,39 @@ module.exports = {
         return message.reply("Command not found.");
       }
     } else {
-      const commandsList = `
+      const commandsList = `━━━━━━━━━━━━━━━━
+                  ✩✩✩
+ 𝙳𝙾𝙽𝙺𝙴𝚈 𝙻𝙸𝚃𝚃𝙻𝙴 𝙲𝙾𝙼𝙼𝙰𝙽𝙳
+                  
+❄︎𝙵𝙾𝚁 𝚄𝚂𝙴𝚁𝚂❄︎
 
-📂PRODIGY COMMAN LIST📂
+✰ 𝙰𝙸
+✰ 𝚆𝙾𝚁𝙳𝙶𝚄𝙴𝚂𝚂
+✰ 𝚃𝚁𝙰𝙽𝚂
+✰ 𝙵𝙾𝙽𝚃
+✰ 𝙿𝚁𝙴𝙵𝙸𝚇
+✰ 𝙷𝙴𝙻𝙿
+✰ 𝚂𝙿𝙾𝚃𝙸𝙵𝚈
+✰ 𝚃𝙴𝙼𝙿𝙼𝙰𝙸𝙻
+✰ 𝙿𝙸𝙽𝚃𝙴𝚁𝙴𝚂𝚃
+✰ 𝚄𝙽𝚂𝙴𝙽𝙳
+✰ 𝚄𝙸𝙳
+✰ 𝚄𝙿𝚃𝙸𝙼𝙴
 
-• AI/GPT
-• TRANSLATE
-• QUIZ
-• GEMINI
-• TEMPMAIL 
-• REMINI
-• CHORD 
-• FONT
-• PINTEREST
-• SPOTIFY
-• PREFIX
-• UID
-• HELP
-• UNSEND
-• ADDUSER
-• UPTIME
+✰𝙵𝙾𝚁 𝙰𝙳𝙼𝙸𝙽✰
 
-🤖THANKS FOR CHOOSING THIS BOT 🤖";
+✩ 𝙰𝙳𝙳𝚄𝚂𝙴𝚁
+✩ 𝙵𝙸𝙻𝚃𝙴𝚁
+
+𝚁𝚄𝙻𝙴𝚂 : 𝙰𝚅𝙾𝙸𝙳 𝚂𝙿𝙰𝙼𝙼𝙸𝙽𝙶
+
+1/1 𝙿𝙰𝙶𝙴, 𝚃𝚈𝙿𝙴 /𝙷𝙴𝙻𝙿 <𝙲𝙾𝙼𝙼𝙰𝙽𝙳 𝙽𝙰𝙼𝙴> 𝚃𝙾 𝚂𝙴𝙴 𝙲𝙾𝙼𝙼𝙰𝙽𝙳 𝚄𝚂𝙴𝚂
+
+𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 : 𝙰𝙳𝙼𝙸𝙽/𝙳𝙴𝚅
+━━━━━━━━━━━━━━━━
+@𝙰𝙻𝙻 𝚁𝙸𝙶𝙷𝚃 𝚁𝙴𝚂𝙴𝚁𝚅𝙴𝙳 
+2024
+━━━━━━━━━━━━━━━━`;
 
       return message.reply(commandsList);
     }
