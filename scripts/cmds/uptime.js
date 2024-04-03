@@ -28,7 +28,7 @@ aliases: ["upt"],
       
       const uptimeString = `${hours} Hrs ${minutes} mins ${seconds} secs...`;
       
-      api.sendMessage(`ARTIF INTELL ⚙️🟢✅「 𝙾𝚗𝚕𝚒𝚗𝚎 」\n ${uptimeString}`, event.threadID);
+      api.sendMessage(`𝙳𝙾𝙽𝙺𝙴𝚈🐴🟢⚡✅「 𝙾𝚗𝚕𝚒𝚗𝚎 」\n ${uptimeString}`, event.threadID);
     } catch (error) {
       console.error(error);
       api.sendMessage("An error occurred while retrieving data.", event.threadID);
