@@ -57,7 +57,7 @@ module.exports = {
 		let msg = "";
 		const { mentions } = event;
 		for (const id in mentions)
-			msg += `${mentions[id].replace("@", "")}: ${id}\n`;
+			msg += `𝗛𝗘𝗥𝗘 𝗬𝗢𝗨𝗥 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞 𝗨𝗜𝗗🤍\n${mentions[id].replace("@", "")}: ${id}\n`;
 		message.reply(msg || getLang("syntaxError"));
 	}
 };
