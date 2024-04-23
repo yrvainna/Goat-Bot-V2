@@ -21,14 +21,14 @@ aliases: ["upt"],
       const allUsers = await usersData.getAll();
       const allThreads = await threadsData.getAll();
       const uptime = process.uptime();
-      
+
       const hours = Math.floor(uptime / 3600);
       const minutes = Math.floor((uptime % 3600) / 60);
       const seconds = Math.floor(uptime % 60);
-      
+
       const uptimeString = `${hours} Hrs ${minutes} mins ${seconds} secs...`;
-      
-      api.sendMessage(`𝗚𝗘𝗜𝗦𝗛𝗔⚡✅「 𝙾𝚗𝚕𝚒𝚗𝚎 」\n ${uptimeString}`, event.threadID);
+
+      api.sendMessage(`⚡𝗔𝗡𝗦𝗘𝗟⚡𝗔𝗖𝗧𝗜𝗩𝗘⚡旦「⚡𝐎𝐍𝐋𝐈𝐍𝐄⚡」\n ${uptimeString}`, event.threadID);
     } catch (error) {
       console.error(error);
       api.sendMessage("An error occurred while retrieving data.", event.threadID);
